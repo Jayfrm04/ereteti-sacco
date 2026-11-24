@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Membership - Ereteti Dairy Sacco</title>
+</head>
+
+<body>
+    <h1>Ereteti Dairy Sacco</h1>
+ <p>Milk collected twice a day, on three routes out of Ngong.</p>
+<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="routes.html">Our routes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html">Join</a></li>
+        <li><a href="deliveries.html">Deliveries</a></li>
+    </ul>
+    <h1>Apply for membership</h1>
+ <p>Any dairy farmer on the Kiserian, Ngong, or Rongai routes may
+        apply to join Ereteti Dairy Sacco. Please complete all required
+        fields below to submit your application.</p>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Your details</legend>
+<label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" required>
+<label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="lastName" required>
+<label for="nationalID">National ID number</label>
+            <input type="text" id="nationalID" name="nationalID" required>
+<label for="phone">Phone number</label>
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="07XXXXXXXX"
+                pattern="07[0-9]{8}"
+                required
+            >
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>Your route</legend>
+<label for="route">Route</label>
+<select id="route" name="route" required>
+                <option value="">Choose a route</option>
+                <option value="Kiserian">Kiserian route</option>
+                <option value="Ngong">Ngong route</option>
+                <option value="Rongai">Rongai route</option>
+            </select>
+<label for="joiningDate">Date of joining</label>
+            <input
+                type="date"
+                id="joiningDate"
+                name="joiningDate"
+                required
+            >
+        </fieldset>
+<br>
+        <input
+            type="checkbox"
+            id="acceptRules"
+            name="acceptRules"
+            value="yes"
+            required
+        >
+<label for="acceptRules">
+            I accept the sacco's rules
+        </label>
+<button type="submit">Apply to join</button>
+</form>
+    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
+<p><i>Site built by</i><strong> Brandon Odeny, </strong>DBT Year 1, 2026.</p>
+</body>
+</html>
